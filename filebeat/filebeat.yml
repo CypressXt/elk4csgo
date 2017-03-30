@@ -3,5 +3,6 @@ filebeat:
     - input_type: log
       paths:
         - "/home/cypress/Steam/steamapps/common/Counter-Strike\ Global\ Offensive\ Beta\ -\ Dedicated\ Server/csgo/logs/*.log"
+        - "/home/cypress/Steam/steamapps/common/Counter-Strike\ Global\ Offensive\ Beta\ -\ Dedicated\ Server/csgo/logfiles/*.log"
 output.logstash:
   hosts: ["logstashhost:5192"]
